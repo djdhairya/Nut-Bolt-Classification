@@ -1,6 +1,6 @@
 # Nut-Bolt-Classification
 
-1. Introduction:
+ Introduction:
    
 In the manufacturing and hardware industries, accurate identification and classification of different fasteners like nuts, bolts, and screws is crucial for inventory management, quality control, and assembly line operations. Traditionally, this process has relied on manual visual inspection by skilled workers, which can be time-consuming, error-prone, and subject to human fatigue.
 To address these challenges, we have developed an innovative machine learning system called "NutBoltClassifier" that leverages the power of computer vision and deep learning algorithms to automate the process of identifying and classifying various types of nuts, bolts, and screws from their images.
@@ -11,7 +11,7 @@ The NutBoltClassifier system is designed to streamline and enhance the fastener 
 4.	Scalability: As the system is based on software and machine learning algorithms, it can be easily scaled and deployed across various hardware platforms, from handheld devices to industrial-scale systems.
 In the following sections, we will delve into the technical details of our NutBoltClassifier system, including the dataset used, the deep learning architecture employed, the training process, and the evaluation metrics. We will also discuss the potential applications and real-world impact of our solution in streamlining manufacturing processes and improving quality control measures.
 
- 2. Features:
+   Features:
    
 1. Multiclass Classification: Capable of classifying various types of nuts, bolts, and screws into multiple predefined categories with high accuracy.
 2. Convolutional Neural Network (CNN) Architecture: Utilizes a state-of-the-art CNN model specifically designed for image classification tasks, enabling automatic learning and extraction of relevant visual features from fastener images.
@@ -20,7 +20,7 @@ In the following sections, we will delve into the technical details of our NutBo
 5. Confidence Scoring: Provides a confidence score along with the predicted class label, allowing users to gauge the reliability of the classification and make informed decisions.
 These five features highlight the system's ability to accurately classify multiple fastener types, its use of advanced deep learning techniques, its data-efficient training approach, its ability to handle diverse data, and its transparency in communicating prediction confidence to users.
 
-3. Architecture:
+   Architecture:
 
 A. Data Processing Stage:
 o	Image Acquisition: This component handles the acquisition of fastener images from various sources, such as cameras, scanners, or existing image databases.
