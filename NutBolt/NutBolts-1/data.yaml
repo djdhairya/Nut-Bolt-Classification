@@ -1,0 +1,13 @@
+train: "C:\Users\Dhairya Hindoriya\OneDrive\Desktop\Custom Object Detection\yolov9\NutBolts-1\train\images"
+val: "C:\Users\Dhairya Hindoriya\OneDrive\Desktop\Custom Object Detection\yolov9\NutBolts-1\valid\images"
+test: "C:\Users\Dhairya Hindoriya\OneDrive\Desktop\Custom Object Detection\yolov9\NutBolts-1\test\images"
+
+nc: 2
+names: ['bolt', 'nut']
+
+roboflow:
+  workspace: cgc
+  project: nutbolts
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cgc/nutbolts/dataset/1
